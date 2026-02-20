@@ -37,8 +37,9 @@ git push -u origin main
 
 3. **Activer GitHub Pages**
    - Repo → **Settings** → **Pages**
-   - Source : **GitHub Actions**
-   - Le site sera en ligne sous peu
+   - Source : **Deploy from a branch**
+   - Branch : **gh-pages** / **(root)**
+   - Save — le workflow créera automatiquement la branche au prochain push
 
 ## Lancer en local
 
